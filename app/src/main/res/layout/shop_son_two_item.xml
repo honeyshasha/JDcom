@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ImageView
+    android:id="@+id/shop_image"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@mipmap/ic_launcher"
+    android:layout_centerInParent="true"
+    />
+    <TextView
+        android:layout_below="@+id/shop_image"
+        android:id="@+id/shop_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dongxi"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
